@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MovClaimsConfigserverMsApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void main() {
+		MovClaimsConfigserverMsApplication.main(new String[] {});
 	}
 
 }
